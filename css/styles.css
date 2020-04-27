@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-color:#543864;
+}
+
+#heading {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+
+.container {
+  display: block;
+  /*width: 50%*/
+  /*margin: auto;*/
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 5px solid powderblue;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.flower1 {
+ background-image:url("images/flower1.jpg");
+}
+
+.flower2 {
+   background-image: url("images/flower2.jpg");
+}
+
+.flower3 {
+   background-image: url("images/flower3.jpg");
+
+}
+
+.flower4 {
+   background-image: url("images/flower4.jpg");
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer{
+  background-color: #856c8b;
+  height:120px;
+  width:100%;
+  font-size:20px;
+  color:#f8eeee;
+  font-family:Comic Sans MS;
+  padding:10px;
+  margin:0;
+}
